@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trivia Game</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Trivia Game</h1>
+    <div id="scoreboard">
+      <div id="team1">
+        <span>Team 1: </span>
+        <span id="team1Score">0</span>
+        <button id="increaseTeam1">Increase</button>
+      </div>
+      <div id="team2">
+        <span>Team 2: </span>
+        <span id="team2Score">0</span>
+        <button id="increaseTeam2">Increase</button>
+      </div>
+    </div>
+    <div id="questionContainer">
+      <button id="newQuestion">New Question</button>
+      <div id="questionDisplayedHere"></div>
+    </div>
+    <div id="answerContainer">
+      <button id="revealAnswer">Reveal Answer</button>
+    </div>
+    <div id="filterContainer">
+      <h3>Select a Specific Category:</h3>
+      <label>
+        <input type="checkbox" class="category" value="9"> General Knowledge
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="10"> Books
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="11"> Film
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="12"> Music
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="13"> Musicals & Theatres
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="14"> Television
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="15"> Video Games
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="16"> Board Games
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="17"> Science & Nature
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="19"> Math
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="20"> Mythology
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="21"> Sports
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="22"> Geography
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="23"> History
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="26"> Celebrities
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="27"> Animals
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="28"> Vehicles
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="29"> Comics
+      </label>
+      <label>
+        <input type="checkbox" class="category" value="32"> Cartoons and Animations
+      </label>
+      <br>
+      <h3>Filter Difficulty:</h3>
+      <label>
+        <input type="checkbox" class="difficulty" value="easy"> Easy
+      </label>
+      <label>
+        <input type="checkbox" class="difficulty" value="medium"> Medium
+      </label>
+      <label>
+        <input type="checkbox" class="difficulty" value="hard"> Hard
+      </label>
+    </div>
+    <button id="reset">Reset Game</button>
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
